@@ -1,20 +1,36 @@
-import math
-
-from torch.nn.init import _calculate_fan_in_and_fan_out, _no_grad_normal_, _no_grad_uniform_
-
-
-def xavier_normal_small_init_(tensor, gain=1.):
-    # type: (Tensor, float) -> Tensor
-    fan_in, fan_out = _calculate_fan_in_and_fan_out(tensor)
-    std = gain * math.sqrt(2.0 / float(fan_in + 4*fan_out))
-
-    return _no_grad_normal_(tensor, 0., std)
+import logging
+logger = logging.getLogger('my_logger')
 
 
-def xavier_uniform_small_init_(tensor, gain=1.):
-    # type: (Tensor, float) -> Tensor
-    fan_in, fan_out = _calculate_fan_in_and_fan_out(tensor)
-    std = gain * math.sqrt(2.0 / float(fan_in + 4*fan_out))
-    a = math.sqrt(3.0) * std  # Calculate uniform bounds from standard deviation
+class EarlyStopping:
+    def __init__(self, mode, patience=10):
+        self.patience = patience
+        self.mode = mode
+        self.min, self.max = float('inf'), 0
+        self.epochs_no_improve = 0
 
-    return _no_grad_uniform_(tensor, -a, a)
+    @property
+    def should_stop(self):
+        if self.epochs_no_improve == self.patience:
+            logging.info('Early stopping!')
+            return True
+        return False
+
+    def has_improved(self, val):
+        if self._is_better_result(val):
+            self.epochs_no_improve = 0
+            return True
+        self.epochs_no_improve += 1
+        logging.info(f"epochs_no_improve: {self.epochs_no_improve}/{self.patience}\n")
+        return False
+
+    def _is_better_result(self, val):
+        if self.mode == "min":
+            if val < self.min:
+                self.min = val
+                return True
+        else:
+            if val > self.max:
+                self.max = val
+                return True
+        return False

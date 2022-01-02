@@ -1,4 +1,4 @@
-,class,pIC50,scaffold_split,smiles,docking_score,gauss,hydrophobic,intramolecular_energy,non_dir_h_bond,num_tors_div,repulsion
+id,class,pIC50,scaffold_split,smiles,docking_score,gauss,hydrophobic,intramolecular_energy,non_dir_h_bond,num_tors_div,repulsion
 BACE_1,1,9.1549015,test,O1CC[C@@H](NC(=O)[C@@H](Cc2cc3cc(ccc3nc2N)-c2ccccc2C)C)CC1(C)C,-9.04654,178.70914,121.80214,-1.16025,2.68633,0.0,4.95706
 BACE_2,1,8.8538723,train,Fc1cc(cc(F)c1)C[C@H](NC(=O)[C@@H](N1CC[C@](NC(=O)C)(CC(C)C)C1=O)CCc1ccccc1)[C@H](O)[C@@H]1[NH2+]C[C@H](OCCC)C1,-10.15996,273.78047000000004,137.06339,-3.74269,2.3763,0.0,6.41509
 BACE_3,1,8.6989698,train,S1(=O)(=O)N(c2cc(cc3c2n(cc3CC)CC1)C(=O)N[C@H]([C@H](O)C[NH2+]Cc1cc(OC)ccc1)Cc1ccccc1)C,-9.59551,182.49168999999998,98.58107,-1.83827,4.46073,0.0,3.29048

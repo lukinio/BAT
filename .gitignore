@@ -1,5 +1,10 @@
 # data
-/data/bace_docked/bace_poses
+.data/bace_docked/bace_poses
+.pretrained
+.saved
+.experiments
+*.pt
+*.pth
 
 # Created by https://www.toptal.com/developers/gitignore/api/pycharm,jupyternotebooks,pythonvanilla,pycharm+all,pycharm+iml,virtualenv,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm,jupyternotebooks,pythonvanilla,pycharm+all,pycharm+iml,virtualenv,visualstudiocode

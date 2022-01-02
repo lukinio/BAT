@@ -6,9 +6,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as f
-from torch.autograd import Variable
 
-from ..utils.utils import xavier_normal_small_init_, xavier_uniform_small_init_
+from .utils import xavier_normal_small_init_, xavier_uniform_small_init_
 
 
 # Model definition
@@ -177,6 +176,7 @@ class SublayerConnection(nn.Module):
         self.dropout = nn.Dropout(dropout)
         self.use_adapter = use_adapter
         self.adapter = Adapter(size, 8) if use_adapter else None
+        # TODO ASK WHERE IS ADAPTER
 
     def forward(self, x, sublayer):
         """Apply residual connection to any sublayer with the same size."""
