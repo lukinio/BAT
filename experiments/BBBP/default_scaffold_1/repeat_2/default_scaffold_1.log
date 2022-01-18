@@ -1,0 +1,390 @@
+Epoch: 1 TRAIN Loss: 0.44925, accuracy: 80.932, precision: 85.178, recall: 92.990 F1: 88.913, AUC: 0.591
+Epoch: 1 VALID Loss: 0.56670, accuracy: 64.706, precision: 61.111, recall: 98.214 F1: 75.342, AUC: 0.611
+
+Epoch: 2 TRAIN Loss: 0.33200, accuracy: 87.431, precision: 89.011, recall: 96.644 F1: 92.671, AUC: 0.707
+Epoch: 2 VALID Loss: 0.34514, accuracy: 91.176, precision: 89.167, recall: 95.536 F1: 92.241, AUC: 0.907
+
+Epoch: 3 TRAIN Loss: 0.31316, accuracy: 87.554, precision: 89.624, recall: 95.973 F1: 92.690, AUC: 0.723
+Epoch: 3 VALID Loss: 0.29696, accuracy: 92.157, precision: 92.105, recall: 93.750 F1: 92.920, AUC: 0.920
+
+Epoch: 4 TRAIN Loss: 0.31068, accuracy: 88.473, precision: 90.685, recall: 95.824 F1: 93.183, AUC: 0.752
+Epoch: 4 VALID Loss: 0.31746, accuracy: 88.235, precision: 84.921, recall: 95.536 F1: 89.916, AUC: 0.874
+
+epochs_no_improve: 1/50
+
+Epoch: 5 TRAIN Loss: 0.31625, accuracy: 88.351, precision: 91.254, recall: 94.929 F1: 93.056, AUC: 0.764
+Epoch: 5 VALID Loss: 0.25328, accuracy: 90.686, precision: 91.150, recall: 91.964 F1: 91.556, AUC: 0.905
+
+epochs_no_improve: 2/50
+
+Epoch: 6 TRAIN Loss: 0.28373, accuracy: 90.006, precision: 91.714, recall: 96.570 F1: 94.079, AUC: 0.781
+Epoch: 6 VALID Loss: 0.25598, accuracy: 92.157, precision: 92.105, recall: 93.750 F1: 92.920, AUC: 0.920
+
+epochs_no_improve: 3/50
+
+Epoch: 7 TRAIN Loss: 0.28601, accuracy: 89.393, precision: 90.782, recall: 96.943 F1: 93.761, AUC: 0.757
+Epoch: 7 VALID Loss: 0.23536, accuracy: 91.667, precision: 90.598, recall: 94.643 F1: 92.576, AUC: 0.913
+
+epochs_no_improve: 4/50
+
+Epoch: 8 TRAIN Loss: 0.31428, accuracy: 87.554, precision: 90.994, recall: 94.183 F1: 92.561, AUC: 0.755
+Epoch: 8 VALID Loss: 0.22480, accuracy: 92.157, precision: 92.857, recall: 92.857 F1: 92.857, AUC: 0.921
+
+Epoch: 9 TRAIN Loss: 0.27306, accuracy: 90.006, precision: 91.655, recall: 96.644 F1: 94.083, AUC: 0.780
+Epoch: 9 VALID Loss: 0.21212, accuracy: 92.157, precision: 92.857, recall: 92.857 F1: 92.857, AUC: 0.921
+
+epochs_no_improve: 1/50
+
+Epoch: 10 TRAIN Loss: 0.27057, accuracy: 90.190, precision: 91.791, recall: 96.719 F1: 94.190, AUC: 0.784
+Epoch: 10 VALID Loss: 0.25472, accuracy: 91.667, precision: 88.000, recall: 98.214 F1: 92.827, AUC: 0.910
+
+epochs_no_improve: 2/50
+
+Epoch: 11 TRAIN Loss: 0.24410, accuracy: 91.232, precision: 92.243, recall: 97.539 F1: 94.817, AUC: 0.798
+Epoch: 11 VALID Loss: 0.21022, accuracy: 93.627, precision: 91.597, recall: 97.321 F1: 94.372, AUC: 0.932
+
+Epoch: 12 TRAIN Loss: 0.24018, accuracy: 91.294, precision: 92.367, recall: 97.465 F1: 94.848, AUC: 0.801
+Epoch: 12 VALID Loss: 0.21865, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 1/50
+
+Epoch: 13 TRAIN Loss: 0.23607, accuracy: 91.539, precision: 92.629, recall: 97.465 F1: 94.985, AUC: 0.808
+Epoch: 13 VALID Loss: 0.30480, accuracy: 89.216, precision: 84.615, recall: 98.214 F1: 90.909, AUC: 0.882
+
+epochs_no_improve: 2/50
+
+Epoch: 14 TRAIN Loss: 0.21744, accuracy: 91.784, precision: 93.015, recall: 97.315 F1: 95.117, AUC: 0.818
+Epoch: 14 VALID Loss: 0.27072, accuracy: 91.176, precision: 86.154, recall: 100.000 F1: 92.562, AUC: 0.902
+
+epochs_no_improve: 3/50
+
+Epoch: 15 TRAIN Loss: 0.23146, accuracy: 91.600, precision: 93.309, recall: 96.719 F1: 94.984, AUC: 0.823
+Epoch: 15 VALID Loss: 0.20372, accuracy: 91.667, precision: 92.793, recall: 91.964 F1: 92.377, AUC: 0.916
+
+epochs_no_improve: 4/50
+
+Epoch: 16 TRAIN Loss: 0.23430, accuracy: 91.600, precision: 93.434, recall: 96.570 F1: 94.976, AUC: 0.826
+Epoch: 16 VALID Loss: 0.24871, accuracy: 91.176, precision: 86.719, recall: 99.107 F1: 92.500, AUC: 0.903
+
+epochs_no_improve: 5/50
+
+Epoch: 17 TRAIN Loss: 0.24530, accuracy: 91.416, precision: 93.864, recall: 95.824 F1: 94.834, AUC: 0.834
+Epoch: 17 VALID Loss: 0.37350, accuracy: 87.255, precision: 81.618, recall: 99.107 F1: 89.516, AUC: 0.860
+
+epochs_no_improve: 6/50
+
+Epoch: 18 TRAIN Loss: 0.21777, accuracy: 92.213, precision: 93.111, recall: 97.763 F1: 95.380, AUC: 0.822
+Epoch: 18 VALID Loss: 0.18988, accuracy: 93.627, precision: 92.308, recall: 96.429 F1: 94.323, AUC: 0.933
+
+Epoch: 19 TRAIN Loss: 0.22249, accuracy: 91.539, precision: 92.690, recall: 97.390 F1: 94.982, AUC: 0.809
+Epoch: 19 VALID Loss: 0.21417, accuracy: 90.196, precision: 93.396, recall: 88.393 F1: 90.826, AUC: 0.904
+
+epochs_no_improve: 1/50
+
+Epoch: 20 TRAIN Loss: 0.19836, accuracy: 93.010, precision: 93.665, recall: 98.136 F1: 95.849, AUC: 0.837
+Epoch: 20 VALID Loss: 0.17781, accuracy: 92.647, precision: 91.453, recall: 95.536 F1: 93.450, AUC: 0.923
+
+epochs_no_improve: 2/50
+
+Epoch: 21 TRAIN Loss: 0.20323, accuracy: 92.397, precision: 94.908, recall: 95.899 F1: 95.401, AUC: 0.861
+Epoch: 21 VALID Loss: 0.64398, accuracy: 70.588, precision: 65.116, recall: 100.000 F1: 78.873, AUC: 0.674
+
+epochs_no_improve: 3/50
+
+Epoch: 22 TRAIN Loss: 0.21208, accuracy: 91.723, precision: 92.766, recall: 97.539 F1: 95.093, AUC: 0.812
+Epoch: 22 VALID Loss: 0.17833, accuracy: 93.627, precision: 90.909, recall: 98.214 F1: 94.421, AUC: 0.931
+
+epochs_no_improve: 4/50
+
+Epoch: 23 TRAIN Loss: 0.19198, accuracy: 93.194, precision: 94.825, recall: 97.017 F1: 95.909, AUC: 0.863
+Epoch: 23 VALID Loss: 0.19165, accuracy: 92.157, precision: 92.857, recall: 92.857 F1: 92.857, AUC: 0.921
+
+epochs_no_improve: 5/50
+
+Epoch: 24 TRAIN Loss: 0.18640, accuracy: 93.562, precision: 94.848, recall: 97.465 F1: 96.138, AUC: 0.865
+Epoch: 24 VALID Loss: 0.20139, accuracy: 93.137, precision: 92.241, recall: 95.536 F1: 93.860, AUC: 0.929
+
+epochs_no_improve: 6/50
+
+Epoch: 25 TRAIN Loss: 0.17544, accuracy: 93.317, precision: 94.702, recall: 97.315 F1: 95.991, AUC: 0.861
+Epoch: 25 VALID Loss: 0.24338, accuracy: 90.196, precision: 85.938, recall: 98.214 F1: 91.667, AUC: 0.893
+
+epochs_no_improve: 7/50
+
+Epoch: 26 TRAIN Loss: 0.15990, accuracy: 93.194, precision: 95.221, recall: 96.570 F1: 95.890, AUC: 0.871
+Epoch: 26 VALID Loss: 0.20363, accuracy: 94.118, precision: 92.373, recall: 97.321 F1: 94.783, AUC: 0.938
+
+Epoch: 27 TRAIN Loss: 0.17127, accuracy: 93.869, precision: 95.929, recall: 96.644 F1: 96.285, AUC: 0.888
+Epoch: 27 VALID Loss: 0.25071, accuracy: 88.235, precision: 93.137, recall: 84.821 F1: 88.785, AUC: 0.886
+
+epochs_no_improve: 1/50
+
+Epoch: 28 TRAIN Loss: 0.16563, accuracy: 93.562, precision: 95.175, recall: 97.092 F1: 96.124, AUC: 0.872
+Epoch: 28 VALID Loss: 0.28203, accuracy: 91.176, precision: 86.719, recall: 99.107 F1: 92.500, AUC: 0.903
+
+epochs_no_improve: 2/50
+
+Epoch: 29 TRAIN Loss: 0.14449, accuracy: 94.053, precision: 95.601, recall: 97.241 F1: 96.414, AUC: 0.883
+Epoch: 29 VALID Loss: 0.21179, accuracy: 92.647, precision: 92.174, recall: 94.643 F1: 93.392, AUC: 0.924
+
+epochs_no_improve: 3/50
+
+Epoch: 30 TRAIN Loss: 0.13075, accuracy: 95.218, precision: 96.264, recall: 97.987 F1: 97.118, AUC: 0.902
+Epoch: 30 VALID Loss: 0.23870, accuracy: 92.157, precision: 91.379, recall: 94.643 F1: 92.982, AUC: 0.919
+
+epochs_no_improve: 4/50
+
+Epoch: 31 TRAIN Loss: 0.13375, accuracy: 94.911, precision: 96.047, recall: 97.837 F1: 96.934, AUC: 0.896
+Epoch: 31 VALID Loss: 0.20173, accuracy: 94.118, precision: 92.373, recall: 97.321 F1: 94.783, AUC: 0.938
+
+epochs_no_improve: 5/50
+
+Epoch: 32 TRAIN Loss: 0.13228, accuracy: 95.095, precision: 96.326, recall: 97.763 F1: 97.039, AUC: 0.903
+Epoch: 32 VALID Loss: 0.20380, accuracy: 91.667, precision: 92.035, recall: 92.857 F1: 92.444, AUC: 0.915
+
+epochs_no_improve: 6/50
+
+Epoch: 33 TRAIN Loss: 0.11841, accuracy: 95.831, precision: 96.974, recall: 97.987 F1: 97.478, AUC: 0.919
+Epoch: 33 VALID Loss: 0.21929, accuracy: 93.627, precision: 90.909, recall: 98.214 F1: 94.421, AUC: 0.931
+
+epochs_no_improve: 7/50
+
+Epoch: 34 TRAIN Loss: 0.11416, accuracy: 95.831, precision: 96.836, recall: 98.136 F1: 97.481, AUC: 0.917
+Epoch: 34 VALID Loss: 0.23864, accuracy: 92.157, precision: 89.344, recall: 97.321 F1: 93.162, AUC: 0.916
+
+epochs_no_improve: 8/50
+
+Epoch: 35 TRAIN Loss: 0.11199, accuracy: 95.953, precision: 96.979, recall: 98.136 F1: 97.554, AUC: 0.920
+Epoch: 35 VALID Loss: 0.26356, accuracy: 91.667, precision: 88.000, recall: 98.214 F1: 92.827, AUC: 0.910
+
+epochs_no_improve: 9/50
+
+Epoch: 36 TRAIN Loss: 0.14374, accuracy: 94.788, precision: 96.519, recall: 97.166 F1: 96.841, AUC: 0.905
+Epoch: 36 VALID Loss: 0.46065, accuracy: 87.255, precision: 81.618, recall: 99.107 F1: 89.516, AUC: 0.860
+
+epochs_no_improve: 10/50
+
+Epoch: 37 TRAIN Loss: 0.11361, accuracy: 95.647, precision: 97.107, recall: 97.614 F1: 97.360, AUC: 0.921
+Epoch: 37 VALID Loss: 0.25171, accuracy: 91.667, precision: 88.000, recall: 98.214 F1: 92.827, AUC: 0.910
+
+epochs_no_improve: 11/50
+
+Epoch: 38 TRAIN Loss: 0.07853, accuracy: 97.180, precision: 97.716, recall: 98.881 F1: 98.295, AUC: 0.941
+Epoch: 38 VALID Loss: 0.21963, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 12/50
+
+Epoch: 39 TRAIN Loss: 0.06706, accuracy: 97.854, precision: 98.370, recall: 99.031 F1: 98.699, AUC: 0.957
+Epoch: 39 VALID Loss: 0.21995, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 13/50
+
+Epoch: 40 TRAIN Loss: 0.06477, accuracy: 97.793, precision: 98.585, recall: 98.732 F1: 98.659, AUC: 0.961
+Epoch: 40 VALID Loss: 0.23793, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 14/50
+
+Epoch: 41 TRAIN Loss: 0.06611, accuracy: 97.609, precision: 98.294, recall: 98.807 F1: 98.550, AUC: 0.954
+Epoch: 41 VALID Loss: 0.25580, accuracy: 92.647, precision: 90.083, recall: 97.321 F1: 93.562, AUC: 0.921
+
+epochs_no_improve: 15/50
+
+Epoch: 42 TRAIN Loss: 0.06627, accuracy: 97.854, precision: 98.227, recall: 99.180 F1: 98.701, AUC: 0.955
+Epoch: 42 VALID Loss: 0.20194, accuracy: 92.647, precision: 92.174, recall: 94.643 F1: 93.392, AUC: 0.924
+
+epochs_no_improve: 16/50
+
+Epoch: 43 TRAIN Loss: 0.06580, accuracy: 97.609, precision: 98.366, recall: 98.732 F1: 98.549, AUC: 0.956
+Epoch: 43 VALID Loss: 0.22336, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 17/50
+
+Epoch: 44 TRAIN Loss: 0.06092, accuracy: 97.915, precision: 98.443, recall: 99.031 F1: 98.736, AUC: 0.959
+Epoch: 44 VALID Loss: 0.26274, accuracy: 92.157, precision: 90.000, recall: 96.429 F1: 93.103, AUC: 0.917
+
+epochs_no_improve: 18/50
+
+Epoch: 45 TRAIN Loss: 0.05951, accuracy: 97.977, precision: 98.516, recall: 99.031 F1: 98.773, AUC: 0.961
+Epoch: 45 VALID Loss: 0.21790, accuracy: 92.157, precision: 91.379, recall: 94.643 F1: 92.982, AUC: 0.919
+
+epochs_no_improve: 19/50
+
+Epoch: 46 TRAIN Loss: 0.05976, accuracy: 97.977, precision: 98.516, recall: 99.031 F1: 98.773, AUC: 0.961
+Epoch: 46 VALID Loss: 0.22577, accuracy: 92.647, precision: 91.453, recall: 95.536 F1: 93.450, AUC: 0.923
+
+epochs_no_improve: 20/50
+
+Epoch: 47 TRAIN Loss: 0.05820, accuracy: 97.793, precision: 98.441, recall: 98.881 F1: 98.661, AUC: 0.958
+Epoch: 47 VALID Loss: 0.23903, accuracy: 93.137, precision: 91.525, recall: 96.429 F1: 93.913, AUC: 0.928
+
+epochs_no_improve: 21/50
+
+Epoch: 48 TRAIN Loss: 0.05774, accuracy: 97.977, precision: 98.516, recall: 99.031 F1: 98.773, AUC: 0.961
+Epoch: 48 VALID Loss: 0.23044, accuracy: 92.647, precision: 91.453, recall: 95.536 F1: 93.450, AUC: 0.923
+
+epochs_no_improve: 22/50
+
+Epoch: 49 TRAIN Loss: 0.05353, accuracy: 98.222, precision: 99.028, recall: 98.807 F1: 98.918, AUC: 0.972
+Epoch: 49 VALID Loss: 0.23344, accuracy: 92.647, precision: 91.453, recall: 95.536 F1: 93.450, AUC: 0.923
+
+epochs_no_improve: 23/50
+
+Epoch: 50 TRAIN Loss: 0.05293, accuracy: 98.283, precision: 98.883, recall: 99.031 F1: 98.957, AUC: 0.969
+Epoch: 50 VALID Loss: 0.23700, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 24/50
+
+Epoch: 51 TRAIN Loss: 0.05290, accuracy: 98.222, precision: 98.665, recall: 99.180 F1: 98.922, AUC: 0.965
+Epoch: 51 VALID Loss: 0.24291, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 25/50
+
+Epoch: 52 TRAIN Loss: 0.05290, accuracy: 98.283, precision: 98.810, recall: 99.105 F1: 98.958, AUC: 0.968
+Epoch: 52 VALID Loss: 0.24068, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 26/50
+
+Epoch: 53 TRAIN Loss: 0.05257, accuracy: 98.345, precision: 98.884, recall: 99.105 F1: 98.994, AUC: 0.970
+Epoch: 53 VALID Loss: 0.23833, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 27/50
+
+Epoch: 54 TRAIN Loss: 0.05233, accuracy: 98.345, precision: 98.884, recall: 99.105 F1: 98.994, AUC: 0.970
+Epoch: 54 VALID Loss: 0.24215, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 28/50
+
+Epoch: 55 TRAIN Loss: 0.05231, accuracy: 98.283, precision: 98.810, recall: 99.105 F1: 98.958, AUC: 0.968
+Epoch: 55 VALID Loss: 0.23997, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 29/50
+
+Epoch: 56 TRAIN Loss: 0.05247, accuracy: 98.283, precision: 98.883, recall: 99.031 F1: 98.957, AUC: 0.969
+Epoch: 56 VALID Loss: 0.23854, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 30/50
+
+Epoch: 57 TRAIN Loss: 0.05327, accuracy: 98.467, precision: 98.813, recall: 99.329 F1: 99.070, AUC: 0.969
+Epoch: 57 VALID Loss: 0.24995, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 31/50
+
+Epoch: 58 TRAIN Loss: 0.05245, accuracy: 98.283, precision: 98.738, recall: 99.180 F1: 98.958, AUC: 0.967
+Epoch: 58 VALID Loss: 0.24024, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 32/50
+
+Epoch: 59 TRAIN Loss: 0.05215, accuracy: 98.283, precision: 98.810, recall: 99.105 F1: 98.958, AUC: 0.968
+Epoch: 59 VALID Loss: 0.24313, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 33/50
+
+Epoch: 60 TRAIN Loss: 0.05180, accuracy: 98.283, precision: 98.810, recall: 99.105 F1: 98.958, AUC: 0.968
+Epoch: 60 VALID Loss: 0.24308, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 34/50
+
+Epoch: 61 TRAIN Loss: 0.05175, accuracy: 98.345, precision: 98.811, recall: 99.180 F1: 98.995, AUC: 0.968
+Epoch: 61 VALID Loss: 0.24382, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 35/50
+
+Epoch: 62 TRAIN Loss: 0.05178, accuracy: 98.345, precision: 98.811, recall: 99.180 F1: 98.995, AUC: 0.968
+Epoch: 62 VALID Loss: 0.24613, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 36/50
+
+Epoch: 63 TRAIN Loss: 0.05149, accuracy: 98.345, precision: 98.884, recall: 99.105 F1: 98.994, AUC: 0.970
+Epoch: 63 VALID Loss: 0.24036, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 37/50
+
+Epoch: 64 TRAIN Loss: 0.05171, accuracy: 98.222, precision: 98.882, recall: 98.956 F1: 98.919, AUC: 0.969
+Epoch: 64 VALID Loss: 0.23858, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 38/50
+
+Epoch: 65 TRAIN Loss: 0.05134, accuracy: 98.345, precision: 98.884, recall: 99.105 F1: 98.994, AUC: 0.970
+Epoch: 65 VALID Loss: 0.24397, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 39/50
+
+Epoch: 66 TRAIN Loss: 0.05118, accuracy: 98.406, precision: 98.885, recall: 99.180 F1: 99.032, AUC: 0.970
+Epoch: 66 VALID Loss: 0.24354, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 40/50
+
+Epoch: 67 TRAIN Loss: 0.05138, accuracy: 98.406, precision: 98.812, recall: 99.254 F1: 99.033, AUC: 0.969
+Epoch: 67 VALID Loss: 0.24588, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 41/50
+
+Epoch: 68 TRAIN Loss: 0.05099, accuracy: 98.467, precision: 98.886, recall: 99.254 F1: 99.070, AUC: 0.970
+Epoch: 68 VALID Loss: 0.24305, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 42/50
+
+Epoch: 69 TRAIN Loss: 0.05081, accuracy: 98.345, precision: 98.884, recall: 99.105 F1: 98.994, AUC: 0.970
+Epoch: 69 VALID Loss: 0.24287, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 43/50
+
+Epoch: 70 TRAIN Loss: 0.05102, accuracy: 98.467, precision: 98.886, recall: 99.254 F1: 99.070, AUC: 0.970
+Epoch: 70 VALID Loss: 0.24701, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 44/50
+
+Epoch: 71 TRAIN Loss: 0.05096, accuracy: 98.345, precision: 98.739, recall: 99.254 F1: 98.996, AUC: 0.967
+Epoch: 71 VALID Loss: 0.24786, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 45/50
+
+Epoch: 72 TRAIN Loss: 0.05100, accuracy: 98.283, precision: 98.666, recall: 99.254 F1: 98.959, AUC: 0.965
+Epoch: 72 VALID Loss: 0.24706, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 46/50
+
+Epoch: 73 TRAIN Loss: 0.05071, accuracy: 98.406, precision: 98.812, recall: 99.254 F1: 99.033, AUC: 0.969
+Epoch: 73 VALID Loss: 0.24474, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 47/50
+
+Epoch: 74 TRAIN Loss: 0.05071, accuracy: 98.345, precision: 98.811, recall: 99.180 F1: 98.995, AUC: 0.968
+Epoch: 74 VALID Loss: 0.24193, accuracy: 92.157, precision: 90.678, recall: 95.536 F1: 93.043, AUC: 0.918
+
+epochs_no_improve: 48/50
+
+Epoch: 75 TRAIN Loss: 0.05061, accuracy: 98.406, precision: 98.885, recall: 99.180 F1: 99.032, AUC: 0.970
+Epoch: 75 VALID Loss: 0.24136, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 49/50
+
+Epoch: 76 TRAIN Loss: 0.05036, accuracy: 98.406, precision: 98.812, recall: 99.254 F1: 99.033, AUC: 0.969
+Epoch: 76 VALID Loss: 0.24573, accuracy: 92.647, precision: 90.756, recall: 96.429 F1: 93.506, AUC: 0.922
+
+epochs_no_improve: 50/50
+
+Early stopping!
+Save model from last epoch
+
+BEST
+TEST - Loss: 1.15190, accuracy: 61.765, precision: 58.788, recall: 90.654 F1: 71.324, AUC: 0.603
+mean and std over 2 runs
+mean: 61.275, std: 0.490 - accuracy [60.78431373 61.76470588]
+mean: 58.436, std: 0.352 - precision [58.08383234 58.78787879]
+mean: 90.654, std: 0.000 - recall [90.65420561 90.65420561]
+mean: 71.063, std: 0.260 - F1 [70.80291971 71.32352941]
+mean: 0.598, std: 0.005 - AUC [0.59244629 0.60275556]
+
+DELETE: ../experiments/BBBP/default_scaffold_1/repeat_2/default_scaffold_1_best.pt
+
+LAST
+TEST - Loss: 1.52299, accuracy: 60.294, precision: 58.025, recall: 87.850 F1: 69.888, AUC: 0.589
+mean and std over 2 runs
+mean: 61.765, std: 1.471 - accuracy [63.23529412 60.29411765]
+mean: 59.141, std: 1.116 - precision [60.25641026 58.02469136]
+mean: 87.850, std: 0.000 - recall [87.85046729 87.85046729]
+mean: 70.686, std: 0.797 - F1 [71.48288973 69.88847584]
+mean: 0.604, std: 0.015 - AUC [0.61966471 0.58873687]
+
+DELETE: ../experiments/BBBP/default_scaffold_1/repeat_2/default_scaffold_1_last.pt
