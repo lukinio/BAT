@@ -93,6 +93,8 @@ class Generator(nn.Module):
             out_avg_pooling = out_sum
         elif self.aggregation_type == 'dummy_node':
             out_avg_pooling = out_masked[:, 0]
+        else:
+            raise ValueError("No such aggregation_type")
 
         projected = self.proj(out_avg_pooling)
         return projected
@@ -280,6 +282,8 @@ class MultiHeadedAttention(nn.Module):
             self.distance_matrix_kernel = lambda x: f.softmax(-x, dim=-1)
         elif distance_matrix_kernel == 'exp':
             self.distance_matrix_kernel = lambda x: torch.exp(-x)
+        else:
+            raise ValueError("No such distance_matrix_kernel")
         self.integrated_distances = integrated_distances
         self.use_edge_features = use_edge_features
         self.control_edges = control_edges
@@ -343,6 +347,8 @@ class PositionwiseFeedForward(nn.Module):
             self.dense_output_nonlinearity = lambda x: self.tanh(x)
         elif dense_output_nonlinearity == 'none':
             self.dense_output_nonlinearity = lambda x: x
+        else:
+            raise ValueError("No such dense_output_nonlinearity")
 
     def forward(self, x):
         if self.N_dense == 0:

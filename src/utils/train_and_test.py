@@ -8,7 +8,6 @@ from .utils import EarlyStopping
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-logger = logging.getLogger('my_logger')
 
 
 def _epoch(loader, model, loss_fn, optimizer=None, grad_clip: float = 0.):
@@ -40,7 +39,7 @@ def _epoch(loader, model, loss_fn, optimizer=None, grad_clip: float = 0.):
     return metrics
 
 
-def train_and_valid(train_loader, valid_loader, model, loss_fn, optimizer, exp_path, exp_name, scheduler=None,
+def train_and_valid(logger, train_loader, valid_loader, model, loss_fn, optimizer, exp_path, exp_name, scheduler=None,
                     epochs=30, early_stop: EarlyStopping = None, grad_clip=1, save_model=True):
     logs = {
         'loss': {"train": [], "valid": []},
@@ -88,5 +87,5 @@ def test(test_loader, model, loss_fn, model_weights=None):
     model = model.to(device)
     if model_weights is not None:
         model.load_state_dict(torch.load(model_weights, map_location=device))
-    test_metrics = _epoch(test_loader, model, loss_fn, optimizer=None)
-    logger.info(f"TEST - {test_metrics.show}")
+    return _epoch(test_loader, model, loss_fn, optimizer=None)
+

@@ -1,8 +1,8 @@
 # data
-.data/bace_docked/bace_poses
-.pretrained
-.saved
-.experiments
+data/bace_docked/bace_poses
+pretrained
+saved
+experiments
 *.pt
 *.pth
 
