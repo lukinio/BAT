@@ -33,7 +33,8 @@ class MetricsMeter:
 
     @property
     def show(self):
-        return f"Loss: {self.loss:.4f}, accuracy: {self.accuracy:.3f}, F1: {self.f1:.3f}, AUC: {self.auc:.3f}"
+        return f"Loss: {self.loss:.5f}, accuracy: {self.accuracy:.3f}, precision: {self.precision:.3f}, recall: " \
+               f"{self.recall:.3f} F1: {self.f1:.3f}, AUC: {self.auc:.3f}"
 
     @property
     def loss(self):

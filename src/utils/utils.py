@@ -1,9 +1,11 @@
-import logging
-logger = logging.getLogger('my_logger')
+import numpy as np
+
+from .metrics import MetricsMeter
 
 
 class EarlyStopping:
-    def __init__(self, mode, patience=10):
+    def __init__(self, logger, mode, patience=10):
+        self.logger = logger
         self.patience = patience
         self.mode = mode
         self.min, self.max = float('inf'), 0
@@ -12,7 +14,7 @@ class EarlyStopping:
     @property
     def should_stop(self):
         if self.epochs_no_improve == self.patience:
-            logging.info('Early stopping!')
+            self.logger.info('Early stopping!')
             return True
         return False
 
@@ -21,7 +23,7 @@ class EarlyStopping:
             self.epochs_no_improve = 0
             return True
         self.epochs_no_improve += 1
-        logging.info(f"epochs_no_improve: {self.epochs_no_improve}/{self.patience}\n")
+        self.logger.info(f"epochs_no_improve: {self.epochs_no_improve}/{self.patience}\n")
         return False
 
     def _is_better_result(self, val):
@@ -34,3 +36,22 @@ class EarlyStopping:
                 self.max = val
                 return True
         return False
+
+
+def update_dict(metrics: MetricsMeter, d: dict):
+    d["accuracy"].append(metrics.accuracy)
+    d["precision"].append(metrics.precision)
+    d["recall"].append(metrics.recall)
+    d["F1"].append(metrics.f1)
+    d["AUC"].append(metrics.auc)
+
+
+def mean_over_run(logger, d: dict):
+    res = ""
+    runs = -1
+    for k, v in d.items():
+        tmp = np.array(d[k])
+        runs = tmp.shape[0]
+        res += f"mean: {tmp.mean():.3f}, std: {tmp.std():.3f} - {k} {tmp}\n"
+    logger.info(f"mean and std over {runs} runs")
+    logger.info(res)

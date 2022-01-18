@@ -13,7 +13,7 @@ import pandas as pd
 import torch
 from rdkit import Chem
 from rdkit.Chem import AllChem
-from rdkit.Chem import MolFromSmiles
+from rdkit.Chem import MolFromSmiles, MolFromMol2File
 from sklearn.metrics import pairwise_distances
 from torch.utils.data import Dataset
 
@@ -60,6 +60,41 @@ def load_data_from_df(dataset_path, add_dummy_node=True, one_hot_formal_charge=F
     if use_data_saving and not os.path.exists(feature_path):
         logging.info(f"Saving features at '{feature_path}'")
         pickle.dump((x_all, y_all), open(feature_path, "wb"))
+
+    return x_all, y_all
+
+
+def load_data_from_mol_file(mol_file_path, idx, labels, add_dummy_node=True, one_hot_formal_charge=False):
+    """Load and featurize data from file and labels.
+    Args:
+        mol_file_path (str) path to folder with mol files
+        idx (list[int]): A list of index to load.
+        labels (list[float]): A list of the corresponding labels.
+        add_dummy_node (bool): If True, a dummy node will be added to the molecular graph. Defaults to True.
+        one_hot_formal_charge (bool): If True, formal charges on atoms are one-hot encoded. Defaults to False.
+
+    Returns:
+        A tuple (X, y) in which X is a list of graph descriptors (node features, adjacency matrices, distance matrices),
+        and y is a list of the corresponding labels.
+    """
+    x_all, y_all = [], []
+    for i, label in zip(idx, labels):
+        path = mol_file_path + "mol_{}.mol2"
+        try:
+            mol = MolFromMol2File(path.format(i), sanitize=False)
+            try:
+                mol = Chem.AddHs(mol)
+                AllChem.EmbedMolecule(mol, maxAttempts=5000)
+                AllChem.UFFOptimizeMolecule(mol)
+                mol = Chem.RemoveHs(mol)
+            except:
+                AllChem.Compute2DCoords(mol)
+
+            afm, adj, dist = featurize_mol(mol, add_dummy_node, one_hot_formal_charge)
+            x_all.append([afm, adj, dist])
+            y_all.append([label])
+        except ValueError as e:
+            logging.warning('Can not read mol file.\nREASON: {}'.format(path.format(i), e))
 
     return x_all, y_all
 
