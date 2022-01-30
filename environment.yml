@@ -1,0 +1,44 @@
+name: bat
+channels:
+  - rdkit
+  - pytorch
+  - mordred-descriptor
+  - anaconda
+  - conda-forge
+  - defaults
+  - tpeulen
+  - pyg
+  - pytorch
+dependencies:
+  - biopython
+  - bokeh
+  - jupyter
+  - matplotlib
+  - mordred
+  - networkx
+  - notebook
+  - numpy
+  - openbabel
+  - pandas
+  - pip
+  - py3dmol
+  - pyg
+  - pymol-open-source
+  - python
+  - pytorch
+  - pyyaml
+  - rdkit
+  - cython
+  - scikit-learn
+  - scipy
+  - seaborn
+  - smina
+  - tensorboard
+  - tqdm
+  - yaml
+  - mdanalysis
+  - pytorch
+  - torchvision
+  - cudatoolkit
+  - pip:
+      - -r requirements.txt
